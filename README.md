@@ -1,4 +1,4 @@
-```markdown
+
 # Real-Time Fintech Dashboard (BTC-Chartview)
 
 A high-performance, real-time cryptocurrency tracking dashboard built with **.NET 8** and **React**. This project demonstrates enterprise-grade implementation of low-latency data streaming, secure WebSocket communication, background job processing, and canvas-based data visualization.
@@ -7,9 +7,9 @@ A high-performance, real-time cryptocurrency tracking dashboard built with **.NE
 
 This system implements a **true push-based real-time pipeline**—not REST polling disguised as real-time:
 
-```
+
 Binance WebSocket → BackgroundService → Channel Buffer → PriceBroadcaster → SignalR Hub → React Canvas Charts
-```
+
 
 The architecture proves understanding of backpressure management, throttling, and decoupled data flow patterns essential in high-frequency trading systems.
 
